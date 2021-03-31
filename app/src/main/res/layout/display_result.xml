@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00FFFFFF"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:text="Validation required!"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/nexa_bold"
+        android:id="@+id/userInfo"
+        android:textSize="20dp"
+        android:textColor="?attr/colorOnPrimary"
+        android:padding="20dp"
+        android:background="@drawable/display_result_translucent_bg"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/selectedImage"
+        android:src="@drawable/icon_1"/>
+
+</LinearLayout>
